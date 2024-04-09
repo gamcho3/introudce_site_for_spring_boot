@@ -10,6 +10,11 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<div th:replace="/fragments/carousel"></div>
+<div th:replace="/fragments/carousel :: Carousel"></div>
+<div th:class="cards">
+<div th:replace="/fragments/card :: Card"></div>
+<div th:replace="/fragments/card :: Card"></div>
+<div th:replace="/fragments/card :: Card"></div>
+</div>
 </body>
 </html>

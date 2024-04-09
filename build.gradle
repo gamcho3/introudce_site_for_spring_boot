@@ -20,6 +20,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.3.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	//	부트 디버깅툴
+	implementation  'org.springframework.boot:spring-boot-devtools'
 }
 
 tasks.named('test') {
