@@ -1,0 +1,15 @@
+
+<!--레이아웃을 참조하고 Content임을 선언-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout}"
+      layout:fragment="Content"
+>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div th:replace="/fragments/carousel"></div>
+</body>
+</html>
