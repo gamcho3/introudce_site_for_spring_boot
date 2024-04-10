@@ -11,10 +11,10 @@
 </head>
 <body>
 <div th:replace="/fragments/carousel :: Carousel"></div>
-<div th:class="cards">
-<div th:replace="/fragments/card :: Card"></div>
-<div th:replace="/fragments/card :: Card"></div>
-<div th:replace="/fragments/card :: Card"></div>
+<div class="d-flex justify-content-around p-5">
+    <div th:replace="/fragments/card :: Card"></div>
+    <div th:replace="/fragments/card :: Card"></div>
+    <div th:replace="/fragments/card :: Card"></div>
 </div>
 </body>
 </html>
